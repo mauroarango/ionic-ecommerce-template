@@ -69,7 +69,7 @@ var ProductosPage = (function () {
 }());
 ProductosPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-productos',template:/*ion-inline-start:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/productos/productos.html"*/'<!--\n  Generated template for the ProductosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="rojito">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Productos</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n  <ion-list>\n\n    <ion-item *ngFor="let producto of productos">\n      <ion-thumbnail item-start>\n      <img (click)="pushDescripcion(producto)" [src]="producto.imagen"/>\n      </ion-thumbnail>\n      <h2>{{producto.producto}}</h2>\n      <h3>{{producto.descripcion}}</h3><br>\n      <ion-row>\n        <ion-col col-6><p> $ {{ producto.precio | number: 0 }}</p></ion-col>\n        <ion-col col-6><p>{{categoria.categoria}}</p></ion-col>\n      </ion-row>\n\n      <button ion-button clear item-end (click)="pushDescripcion(producto)">Ver</button>\n    </ion-item>\n\n\n   \n\n </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/productos/productos.html"*/,
+        selector: 'page-productos',template:/*ion-inline-start:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/productos/productos.html"*/'<!--\n  Generated template for the ProductosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="rojito">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Productos</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n  <ion-list>\n\n    <ion-item *ngFor="let producto of productos">\n      <ion-thumbnail item-start>\n      <img (click)="pushDescripcion(producto)" [src]="producto.imagen"/>\n      </ion-thumbnail>\n      <h2>{{producto.producto}}</h2>\n      <h3>{{producto.descripcion}}</h3><br>\n      <ion-row>\n        <ion-col col-6><p> $ {{ producto.precio | number: 0 }}</p></ion-col>\n        <ion-col col-6><p>{{categoria.categoria}}</p></ion-col>\n      </ion-row>\n\n      <button ion-button clear item-end (click)="pushDescripcion(producto)">Ver</button>\n    </ion-item>\n\n\n   \n\n </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/productos/productos.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], ProductosPage);
@@ -100,11 +100,11 @@ webpackEmptyAsyncContext.id = 109;
 
 var map = {
 	"../pages/descripcion/descripcion.module": [
-		267,
+		266,
 		2
 	],
 	"../pages/historia/historia.module": [
-		266,
+		267,
 		1
 	],
 	"../pages/productos/productos.module": [
@@ -186,7 +186,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="rojito">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Empresa</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n\n  \n \n\n  \n</ion-content>\n\n\n<ion-content class="card-background-page">\n\n  <ion-card *ngFor="let categoria of categorias" (click)="pushCategoria(categoria)"><!--?.slice().reverse()--> \n    <img [src]="categoria.imagen"/>\n    \n    <div class="card-categoria">{{categoria.categoria}}</div>\n    <div class="card-subcategoria">{{categoria.subcategoria}}</div>\n  </ion-card>\n\n  <div align="center"><button ion-button secondary menuToggle>Páginas</button> </div>\n\n </ion-content>\n'/*ion-inline-end:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="rojito">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Empresa</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n\n  \n \n\n  \n</ion-content>\n\n\n<ion-content class="card-background-page">\n\n  <ion-card *ngFor="let categoria of categorias" (click)="pushCategoria(categoria)"><!--?.slice().reverse()--> \n    <img [src]="categoria.imagen"/>\n    \n    <div class="card-categoria">{{categoria.categoria}}</div>\n    <div class="card-subcategoria">{{categoria.subcategoria}}</div>\n  </ion-card>\n\n  <div align="center"><button ion-button secondary menuToggle>Páginas</button> </div>\n\n </ion-content>\n'/*ion-inline-end:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], HomePage);
@@ -235,7 +235,7 @@ var HistoriaPage = (function () {
 }());
 HistoriaPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-historia',template:/*ion-inline-start:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/historia/historia.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Historia</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n'/*ion-inline-end:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/historia/historia.html"*/,
+        selector: 'page-historia',template:/*ion-inline-start:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/historia/historia.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Historia</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n'/*ion-inline-end:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/historia/historia.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], HistoriaPage);
@@ -310,8 +310,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/historia/historia.module#HistoriaPageModule', name: 'HistoriaPage', segment: 'historia', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/descripcion/descripcion.module#DescripcionPageModule', name: 'DescripcionPage', segment: 'descripcion', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/historia/historia.module#HistoriaPageModule', name: 'HistoriaPage', segment: 'historia', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/productos/productos.module#ProductosPageModule', name: 'ProductosPage', segment: 'productos', priority: 'low', defaultHistory: [] }
                 ]
             }),
@@ -394,7 +394,7 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/app/app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/app/app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -430,7 +430,7 @@ var ListPage = (function () {
 }());
 ListPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list',template:/*ion-inline-start:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-end>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/list/list.html"*/
+        selector: 'page-list',template:/*ion-inline-start:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/list/list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-end>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/list/list.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], ListPage);
@@ -476,7 +476,7 @@ var DescripcionPage = (function () {
 }());
 DescripcionPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-descripcion',template:/*ion-inline-start:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/descripcion/descripcion.html"*/'<!--\n  Generated template for the DescripcionPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="rojito">\n    <ion-title>{{producto.producto}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="card-background-page">\n\n	<ion-card>\n     <ion-thumbnail item-start>\n      <img [src]="producto.imagen"/>\n\n      </ion-thumbnail>\n\n\n      <ion-card-content>\n    <ion-card-title align="center">\n      {{producto.producto}}\n      </ion-card-title>\n    <p>\n      {{producto.descripcionlarga}}\n    </p>\n  \n\n      <ion-row>\n      \n      <ion-col col-6>\n      <ion-card-title>\n       \n      </ion-card-title>\n      </ion-col>\n\n      <ion-col col-6>\n      <ion-card-title>\n       $ {{ producto.precio | number: 0 }}\n      </ion-card-title>\n\n      </ion-col>\n\n      </ion-row>\n    \n\n  </ion-card-content>\n		\n	</ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/mauroarango/1Negocio Tecnologia/Ionic2/myApp/src/pages/descripcion/descripcion.html"*/,
+        selector: 'page-descripcion',template:/*ion-inline-start:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/descripcion/descripcion.html"*/'<!--\n  Generated template for the DescripcionPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="rojito">\n    <ion-title>{{producto.producto}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content class="card-background-page">\n\n	<ion-card>\n     <ion-thumbnail item-start>\n      <img [src]="producto.imagen"/>\n\n      </ion-thumbnail>\n\n\n      <ion-card-content>\n    <ion-card-title align="center">\n      {{producto.producto}}\n      </ion-card-title>\n    <p>\n      {{producto.descripcionlarga}}\n    </p>\n  \n\n      <ion-row>\n      \n      <ion-col col-6>\n      <ion-card-title>\n       \n      </ion-card-title>\n      </ion-col>\n\n      <ion-col col-6>\n      <ion-card-title>\n       $ {{ producto.precio | number: 0 }}\n      </ion-card-title>\n\n      </ion-col>\n\n      </ion-row>\n    \n\n  </ion-card-content>\n		\n	</ion-card>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/mauroarango/Documents/GitHub/ionic-ecommerce-template/src/pages/descripcion/descripcion.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], DescripcionPage);
