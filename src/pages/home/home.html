@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="rojito">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Empresa</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  
+ 
+
+  
+</ion-content>
+
+
+<ion-content class="card-background-page">
+
+  <ion-card *ngFor="let categoria of categorias" (click)="pushCategoria(categoria)"><!--?.slice().reverse()--> 
+    <img [src]="categoria.imagen"/>
+    
+    <div class="card-categoria">{{categoria.categoria}}</div>
+    <div class="card-subcategoria">{{categoria.subcategoria}}</div>
+  </ion-card>
+
+  <div align="center"><button ion-button secondary menuToggle>Páginas</button> </div>
+
+ </ion-content>
