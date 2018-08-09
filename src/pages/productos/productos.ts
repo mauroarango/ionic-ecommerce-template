@@ -38,36 +38,36 @@ export class ProductosPage {
         this.productos = [
 
                       {"imagen":'http://placehold.it/300x300', 
-                       "producto":'Guitarra',
+                       "producto":'iPhone X',
                        "descripcion":"Descripcion Producto1",
                        "descripcionlarga":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium deleniti voluptate quos, dolore, pariatur iusto ducimus qui harum ea, quam at repudiandae recusandae non. Quos ea illo corporis nesciunt amet.",
-                       "precio": 56000,
+                       "precio": 3799000,
                        
                       },
 
 
                       {"imagen":'http://placehold.it/300x300', 
-                       "producto":'Violin',
+                       "producto":'Samsung Galaxy S9',
                        "descripcion":"Descripcion Producto1",
                        "descripcionlarga":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium deleniti voluptate quos, dolore, pariatur iusto ducimus qui harum ea, quam at repudiandae recusandae non. Quos ea illo corporis nesciunt amet.",
-                       "precio": 18000,
+                       "precio": 2999900,
                        
                       },
 
                       {"imagen":'http://placehold.it/300x300', 
-                       "producto":'Piano',
+                       "producto":'Moto G6',
                        "descripcion":"Descripcion Producto1",
                        "descripcionlarga":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium deleniti voluptate quos, dolore, pariatur iusto ducimus qui harum ea, quam at repudiandae recusandae non. Quos ea illo corporis nesciunt amet.",
-                       "precio": 14500,
+                       "precio": 669900,
                        
                       },
 
 
                       {"imagen":'http://placehold.it/300x300', 
-                       "producto":'Tambor',
+                       "producto":'Xiaomi Redmi 5 DS',
                        "descripcion":"Descripcion Producto1",
                        "descripcionlarga":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium deleniti voluptate quos, dolore, pariatur iusto ducimus qui harum ea, quam at repudiandae recusandae non. Quos ea illo corporis nesciunt amet.",
-                       "precio": 32000,
+                       "precio": 5999000,
                        
                       },
 

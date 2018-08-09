@@ -22,43 +22,10 @@ export class HomePage {
     this.categorias = [
 
                       {"imagen":'http://placehold.it/300x200', 
-                       "categoria":'Categoria1', 
-                       "subcategoria":'Explicacion Categoria',
+                       "categoria":'Celulares', 
+                       "subcategoria":'Catalogo de Productos',
                        
-                      },
-
-                      {"imagen":'http://placehold.it/300x200', 
-                       "categoria":'Categoria2', 
-                       "subcategoria":'Explicacion Categoria',
-                       
-                      },
-
-                      {"imagen":'http://placehold.it/300x200', 
-                       "categoria":'Categoria3', 
-                       "subcategoria":'Explicacion Categoria',
-                       
-                      },
-
-
-                      {"imagen":'http://placehold.it/300x200', 
-                       "categoria":'Categoria4', 
-                       "subcategoria":'Explicacion Categoria',
-                       
-                      },
-
-
-                      {"imagen":'http://placehold.it/300x200', 
-                       "categoria":'Categoria5', 
-                       "subcategoria":'Explicacion Categoria',
-                       
-                      },
-
-
-                      {"imagen":'http://placehold.it/300x200', 
-                       "categoria":'Categoria6', 
-                       "subcategoria":'Explicacion Categoria',
-                       
-                      },
+                      }
 
 
                     ]; 

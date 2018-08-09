@@ -6,7 +6,6 @@ import { CurrencyPipe } from '@angular/common'
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { HistoriaPage } from '../pages/historia/historia';
 import { ProductosPage } from '../pages/productos/productos';
 import { DescripcionPage } from '../pages/descripcion/descripcion';
@@ -18,7 +17,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     HistoriaPage,
     ProductosPage,
     DescripcionPage,
@@ -31,7 +29,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
     HistoriaPage,
     ProductosPage,
     DescripcionPage,
