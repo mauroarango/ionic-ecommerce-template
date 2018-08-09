@@ -24,6 +24,7 @@ First download the project or clone this repository.
 
 $ cd ionic-ecommerce-template
 $ npm install
+Wait.......ok
 $ ionic serve
 
 ```
